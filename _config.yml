@@ -1,0 +1,14 @@
+title: uniune0611.github.io
+description: GitHub Copilot Coding Agent で調査した内容を蓄積するノート集
+theme: minima
+
+# Markdown 記事は notes/ 配下に置く想定
+# 例: notes/2026/jekyll-indexing.md → /notes/2026/jekyll-indexing/
+permalink: /:path/:basename/
+
+# ビルド対象から除外
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
